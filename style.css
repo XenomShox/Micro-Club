@@ -1,0 +1,28 @@
+body{
+    /* height: 2600px; */
+    /* background-color: #f8f9fa; */
+}
+section{
+    height: 100%;
+}
+
+/* First Section */
+
+
+#welcome-button{
+    color: #4285f4;
+    border-color: #4285f4;
+    border-width: 1.5px;
+}
+#welcome-button:hover{
+    color: #fff;
+    background-color: #4285f4;
+    border-color: #4285f4;
+}
+
+#slogan{
+    font-size: 3.5em;
+    /* background-color: #f8f9fa; */
+}
+
+/* Second Section */
