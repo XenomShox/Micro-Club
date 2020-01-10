@@ -2,7 +2,7 @@ body {
     /* height: 2600px; */
     background-color: #f8f9fa;
 }
-section {
+section, .section {
     height: 100vh;
 }
 
@@ -21,3 +21,20 @@ section {
     font-size: 3.5em;
     /* background-color: #f8f9fa; */
 }
+
+.fs-x14 {
+    font-size: 1.4em;
+}
+.fs-x13 {
+    font-size: 1.3em;
+}
+
+.h-55 {
+    height: 55%;
+}
+
+.transparent{
+    background:rgba(255,255,255,0.5);
+}
+
+

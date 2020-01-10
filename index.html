@@ -1,159 +1,196 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Micro Club</title>
 
         <link rel="stylesheet" href="./css/bootstrap.min.css" />
-        <link rel="stylesheet" href="./css/style.css" />
+        <link rel="stylesheet" href="./css/style_v2.css" />
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <span class="navbar-brand mb-0 ml-5 h1">Micro Club</span>
-            <button
-                class="navbar-toggler"
-                type="button"
-                data-toggle="collapse"
-                data-target="#navbarNav"
-                aria-controls="navbarNav"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
-                <span class="navbar-toggler-icon"></span>
-            </button>
+        <header>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <div class="navbar-nav ml-auto mr-5">
-                    <a href="#" class="ml-2 mr-2 nav-link active">Home</a>
-                    <a href="#" class="ml-2 mr-2 nav-item nav-link"
-                        >Get to know us</a
+            <!-- NavBar -->
+            <div class="container-fluid p-0">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <span class="navbar-brand h1">Micro Club</span>
+                    <button
+                        class="navbar-toggler"
+                        type="button"
+                        data-toggle="collapse"
+                        data-target="#navbarNav"
+                        aria-controls="navbarNav"
+                        aria-expanded="false"
+                        aria-label="Toggle navigation"
                     >
-                    <a href="#" class="ml-2 mr-2 nav-item nav-link">Events</a>
-                    <a href="#" class="ml-2 mr-2 nav-item nav-link">Forum</a>
-                    <a href="#" class="ml-2 mr-2 nav-item nav-link">Partners</a>
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+        
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <div class="mr-auto"></div>
+                        <div class="navbar-nav">
+                            <a href="#" class="ml-2 mr-2 nav-link active">Home</a>
+                            <a href="#" class="ml-2 mr-2 nav-item nav-link">Get to know us</a>
+                            <a href="#" class="ml-2 mr-2 nav-item nav-link">Events</a>
+                            <a href="#" class="ml-2 mr-2 nav-item nav-link">Forum</a>
+                            <a href="#" class="ml-2 mr-2 nav-item nav-link">Partners</a>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            
+            <!-- Welcome Section -->
+            <div class="container">
+                <div class="row flex-column-reverse flex-md-row align-items-center">
+                    <div class="col-md-6 col-sm-12 text-center">
+                        <h6 style="font-size: 2.5em;">When Technology</h6>
+                        <h1 style="font-size: 5.6em;">Meets Fun</h1>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos, voluptas quam fuga quia, explicabo illum placeat dolores temporibus assumenda corrupti sequi tempore? Possimus debitis atque minus temporibus ullam. Beatae, quia?</p>
+                        <button id="welcome-button" class="btn btn-outline-info px-5 py-2">Welcome</button>
+                    </div>
+                    <div class="col-md-6 col-sm-12 mb-sm-5">
+                        <img src="./img/undraw_developer_activity_bv83.svg" alt="background image" class="rounded w-100"/>
+                    </div>
                 </div>
             </div>
-        </nav>
-
-        <section id="welcome-section">
-            <div
-                class="container-fuild d-flex flex-md-row flex-column-reverse justify-content-around align-items-center h-100"
-            >
-                <div
-                    class="d-flex flex-column justify-content-center align-items-center"
-                >
-                    <br /><br /><br /><br />
-                    <h2 class="text-center" id="slogan">
-                        When Technology <br />
-                        Meets Fun
-                    </h2>
-                    <a
-                        id="welcome-button"
-                        class="btn btn-outline-info btn-lg mt-5 rounded-lg"
-                        style="width: 200px;"
-                        href="#"
-                        >Welcome</a
-                    >
-                </div>
-                <img
-                    src="./img/undraw_developer_activity_bv83.svg"
-                    alt="background image"
-                    class="rounded w-50"
-                />
-            </div>
-        </section>
-
-        <hr
-            style="width: 80%; border-color: #e6eef9; border-width: 3px; border-radius: 30%;"
-        />
-
-        <section>
-            <!-- <div class="container-fuild d-flex flex-column justify-content-between align-items-center h-100">
-                <img src="./img/undraw_team_spirit_hrr4.svg" class="rounded w-25 mt-0">
                 
-            </div> -->
-            <div class="card mb-3 mx-auto" style="max-width: 90%;">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img
-                            src="./img/undraw_team_spirit_hrr4.svg"
-                            class="card-img"
-                        />
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">
-                                This is a wider card with supporting text below
-                                as a natural lead-in to additional content. This
-                                content is a little bit longer.
-                            </p>
-                            <p class="card-text">
-                                <small class="text-muted"
-                                    >Last updated a moment ago</small
-                                >
-                            </p>
+            </div>
+            
+        </header>
+
+        <main>
+            <hr class="hr">
+
+            <!-- Presentation Section -->
+            <section class="secion-1">
+                <div class="container text-center">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row no-gutters">
+                                  <div class="col-md-4">
+                                    <img src="./img/undraw_team_spirit_hrr4.svg" class="card-img">
+                                  </div>
+                                  <div class="col-md-8 my-auto">
+                                    <div class="card-body">
+                                        <h5 class="card-title">Foundation</h5>
+                                        <p class="card-text fs-x14">
+                                            Established in March the 5th,1985 as the first
+                                            scientific club in Algeria and it's been active
+                                            since then as a student club within the
+                                            University of Science and Technology Houari
+                                            Boumediene (USTHB).
+                                        </p>
+                                        <p class="card-text">
+                                            <small class="text-muted">Last updated 3 mins ago</small>
+                                        </p>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                        </div>
+
+                        <div class="col-md-12">
+                            <div class="card mb-3" style="max-width: 100%;">
+                                <div class="row no-gutters">
+                                  
+                                  <div class="col-md-8 my-auto">
+                                    <div class="card-body">
+                                      <h5 class="card-title">What do we do?</h5>
+                                      <p class="card-text">
+                                        Micro Club is a scientific student club and a
+                                        nonprofit organization that aims at popularizing
+                                        coputer science, IT andd technology fields among
+                                        the student community and extended to all those
+                                        willing to learn and share their knowledge.
+                                      </p>
+                                      <p class="card-text"><small class="text-muted">Last updated a moment ago</small></p>
+                                    </div>
+                                  </div>
+                                  <div class="col-md-4">
+                                    <img src="./img/undraw_creative_team_r90h.svg" class="card-img">
+                                  </div>
+                                </div>
+                              </div>
                         </div>
                     </div>
                 </div>
-            </div>
-            <div class="card mb-3 mx-auto" style="max-width: 90%;">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img
-                            src="./img/undraw_stand_out_1oag.svg"
-                            class="card-img"
-                        />
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">
-                                This is a wider card with supporting text below
-                                as a natural lead-in to additional content. This
-                                content is a little bit longer.
-                            </p>
-                            <p class="card-text">
-                                <small class="text-muted"
-                                    >Last updated a moment ago</small
-                                >
-                            </p>
+            </section>
+
+            <hr class="hr">
+
+            <section>
+                <!-- Sections Description -->
+                <h1 class="display-2 text-center text-secondary mb-5">Sections</h1>
+                <div class="container mt-4">
+                    <div class="row mb-3 align-items-center">
+                        <div class="col-md-4 col-sm-12 mb-sm-2">
+                            <div class="card text-center">
+                                <img class="card-img-top" src="./img/undraw_interaction_design_odgc.svg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Design & Digital Art</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-sm-12 mb-sm-2">
+                            <div class="card text-center">
+                                <img class="card-img-top" src="./img/undraw_gaming_6oy3.svg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Game Dev</h5>
+                                  <p class="card-text">By far it's the core of MicroClub activities, in this department we have multiple game dev related training camps throughout the year, such as Unity3, blender, game maker and so on, we also have a national event, AGC that's stand for ALgerian game challenge</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 col-12 mb-sm-2">
+                            <div class="card text-center">
+                                <img class="card-img-top" src="./img/undraw_camera_mg5h.svg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Multimedia</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                </div>
-            </div>
-            <div class="card mb-3 mx-auto" style="max-width: 90%;">
-                <div class="row no-gutters">
-                    <div class="col-md-4">
-                        <img
-                            src="./img/undraw_creative_team_r90h.svg"
-                            class="card-img"
-                        />
-                    </div>
-                    <div class="col-md-8">
-                        <div class="card-body">
-                            <h5 class="card-title">Card title</h5>
-                            <p class="card-text">
-                                This is a wider card with supporting text below
-                                as a natural lead-in to additional content. This
-                                content is a little bit longer.
-                            </p>
-                            <p class="card-text">
-                                <small class="text-muted"
-                                    >Last updated a moment ago</small
-                                >
-                            </p>
+
+                    <div class="row align-items-center">
+                        <div class="col-2"></div>
+                        <div class="col-3">
+                            <div class="card text-center">
+                                <img class="card-img-top" src="./img/undraw_experience_design_eq3j.svg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Developement</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
                         </div>
+                        <div class="col-2"></div>
+                        <div class="col-3">
+                            <div class="card text-center">
+                                <img class="card-img-top" src="./img/undraw_hacker_mind_6y85.svg" alt="Card image cap">
+                                <div class="card-body">
+                                  <h5 class="card-title">Security</h5>
+                                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-2"></div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
+
+            <hr class="hr">
+        </main>
+
+        <footer>
+        </footer>
 
         <!-- Bootstrap - JQuerry - Popper -->
         <script src="./js/jquery-3.4.1.slim.min.js"></script>
         <script src="./js/popper.min.js"></script>
         <script src="./js/bootstrap.min.js"></script>
+
     </body>
 </html>
