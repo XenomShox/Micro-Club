@@ -8,11 +8,6 @@ body {
     box-sizing: border-box;
 }
 
-header,
-section{
-    /* overflow-x: hidden; */
-}
-
 .hr{
     width: 90%;
     border-color: #e6eef9;
